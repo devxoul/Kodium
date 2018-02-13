@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Kodium",
+  "description": "Better Korean typo for medium.com",
+  "version": "0.1.0",
+
+  "permissions": [
+    "*://medium.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://medium.com/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
