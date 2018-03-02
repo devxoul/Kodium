@@ -11,7 +11,9 @@ const css = `
   :lang(ko) .section-content h1,
   :lang(ko) .section-content h3,
   :lang(ko) .section-content h4,
-  :lang(ko) .section-content p {
+  :lang(ko) .section-content p,
+  :lang(ko) .section-content li,
+  :lang(ko) .section-content blockquote {
     font-family: "Apple SD Gothic Neo",-apple-system,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #404040;
