@@ -3,7 +3,7 @@
 
   "name": "Kodium",
   "description": "Better Korean typo for medium.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
 
   "permissions": [
     "*://medium.com/*"
